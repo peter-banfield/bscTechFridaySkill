@@ -1,11 +1,8 @@
 from flask import Flask
-from flask_ask import Ask, statement, question, session
+from flask_ask import Ask, statement, question
 
 app = Flask(__name__)
 ask = Ask(app, '/')
-
-def get_dialog_state():
-    return session['dialogState']
 
 @ask.launch
 def launched():
@@ -30,3 +27,4 @@ def ie_response():
 
 if __name__ == '__main__':
     app.run(debug=True)
+    
