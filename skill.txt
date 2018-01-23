@@ -1,0 +1,11 @@
+A joke skill
+
+start with making an intent to say a one liner
+
+make a second intent to do a knock knock joke
+
+knock knock
+whos there
+internet explorer
+internet explorer who
+welcome to 2017
