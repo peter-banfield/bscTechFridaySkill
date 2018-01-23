@@ -18,8 +18,15 @@ def one_liner():
 
 @ask.intent('KnockKnock')
 def knock_knock():
-    dialog_state = get_dialog_state()
-    if dialog_state != "COMPLETED":
-        return delegate(speech=None)
+    return question('Knock knock.')
 
+@ask.intent('WhosThere')
+def who():
+    return question('Internet explorer')
+
+@ask.intent('IEWho')
+def ie_response():
     return statement('Welcome to 2017!')
+
+if __name__ == '__main__':
+    app.run(debug=True)
