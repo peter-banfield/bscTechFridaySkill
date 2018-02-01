@@ -9,34 +9,34 @@ def launched():
     return question('Welcome to Calculation! What kind of calculation would you like to preform?')\
         .reprompt('Sorry I missed that. What kind of calculation would you like to do?')
 
-@ask.intent('Addition', convert={'num1': int, 'num2': int})
-def addition(num1, num2):
-    sum = num1 + num2
-    return statement('The sum of {} and {} is {}'.format(num1, num2, sum))
+@ask.intent('Addition', convert={'first': int, 'second': int})
+def addition(first, second):
+    sum = first + second
+    return statement('The sum of {} and {} is {}'.format(first, second, sum))
 
-@ask.intent('Subtraction', convert={'num1': int, 'num2': int})
-def subtraction(num1, num2):
-    difference = num1 - num2
-    return statement('The difference between {} and {} is {}'.format(num1, num2, difference))
+@ask.intent('Subtraction', convert={'first': int, 'second': int})
+def subtraction(first, second):
+    difference = first - second
+    return statement('The difference between {} and {} is {}'.format(first, second, difference))
 
-@ask.intent('Multiplication', convert={'num1': int, 'num2': int})
-def multiplication(num1, num2):
-    product = num1 * num2
-    return statement('The product of {} and {} is {}'.format(num1, num2, product))
+@ask.intent('Multiplication', convert={'first': int, 'second': int})
+def multiplication(first, second):
+    product = first * second
+    return statement('The product of {} and {} is {}'.format(first, second, product))
 
 @ask.intent('Division')
-def division(num1, num2):
-    if num2 == 0:
+def division(first, second):
+    if second == 0:
         return statement('Sorry I cannot divide by zero it doesnt make sense.')
-    quotient = num1 // num2
-    return statement('The quotient of {} and {} is {}'.format(num1, num2, quotient))
+    quotient = first // second
+    return statement('The quotient of {} and {} is {}'.format(first, second, quotient))
 
-@ask.intent('Modulus', convert={'num1': int, 'num2': int})
-def modulus(num1, num2):
-    if num2 == 0:
+@ask.intent('Modulus', convert={'first': int, 'second': int})
+def modulus(first, second):
+    if second == 0:
         return statement('Sorry I cannot divide by zero it doesnt make sense.')
-    remainder = num1 % num2
-    return statement('The mod of {} and {} is {}'.format(num1, num2, remainder))
+    remainder = first % second
+    return statement('The mod of {} and {} is {}'.format(first, second, remainder))
 
 if __name__ == '__main__':
     app.run(debug=True)
