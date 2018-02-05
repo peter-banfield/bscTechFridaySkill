@@ -15,7 +15,7 @@ Two Skills time permitting
 1) Joke skill to introduce Basics
 2) calculation skill to use slots
 
-######################### outline ##########################
+### Outline 
 
 1)  What is Alexa and the amazon echo
 2)  Alexa Basics
@@ -33,15 +33,16 @@ Two Skills time permitting
 12) test using ngrok
 13) provide extra resources and wrap up 
 
-##################### skill1 settings #######################
-Skill Information
+### Skill1 Settings
+
+##### Skill Information
 
 name: Computer Jokes
 invocation name: computer jokes
 
-Interaction Model
+##### Interaction Model
 
-Configuration
+##### Configuration
 
 service endpoint type: https
 default: whatever ngrok gives us
@@ -49,10 +50,10 @@ default: whatever ngrok gives us
 SSL Certificate
 my development endpoint is a sub-domain of a domain that has a wildcard certificate authority
 
-#################### sample one liners #####################
+### Sample One Liners
 Warning, keyboard not found. Press Enter to continue.
 
-################# sample knock knock jokes #################
+## Sample Knock Knock Jokes
 knock knock
 whos there
 internet explorer
