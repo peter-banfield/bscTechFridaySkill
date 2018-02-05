@@ -6,7 +6,7 @@ Editor:         Visual studio code https://code.visualstudio.com/
 
 Language:       Python 3.6.3       https://www.python.org/downloads/            The install of python should include Python in the PATH environment variable
 
-Packages:       Flask-Ask          http://flask-ask.readthedocs.io/en/latest/   This is installed via pip. the command is "pip install flask-ask" without the quotes.
+Packages:       Flask-Ask          http://flask-ask.readthedocs.io/en/latest/   This is installed via pip. the command is `pip install flask-ask`
 
 Other Programs: ngrok              https://ngrok.com/download                   The download is a .zip if possible can it be unziped into a folder on the desktop which only contains the .exe file
                 
@@ -51,15 +51,16 @@ SSL Certificate
 my development endpoint is a sub-domain of a domain that has a wildcard certificate authority
 
 ### Sample One Liners
-Warning, keyboard not found. Press Enter to continue.
+> Warning, keyboard not found. Press Enter to continue.
 
 ## Sample Knock Knock Jokes
-knock knock
 
-whos there
+>Knock Knock
 
-internet explorer
+>Whos there?
 
-internet explorer who
+>Internet Explorer
 
-welcome to 2017
+>Internet Explorer Who?
+
+>Welcome to 2017 
