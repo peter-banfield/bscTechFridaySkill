@@ -55,7 +55,11 @@ Warning, keyboard not found. Press Enter to continue.
 
 ## Sample Knock Knock Jokes
 knock knock
+
 whos there
+
 internet explorer
+
 internet explorer who
+
 welcome to 2017
