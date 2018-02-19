@@ -19,11 +19,11 @@ def knock_knock():
 
 @ask.intent('WhosThere')
 def who():
-    return question('Internet explorer')
+    return question('Yah')
 
-@ask.intent('IEWho')
+@ask.intent('Yahoo')
 def ie_response():
-    return statement('Welcome to 2017!')
+    return statement('No, I usually prefer Google')
 
 if __name__ == '__main__':
     app.run(debug=True)
