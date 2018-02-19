@@ -55,12 +55,8 @@ my development endpoint is a sub-domain of a domain that has a wildcard certific
 
 ## Sample Knock Knock Jokes
 
->Knock Knock
-
->Whos there?
-
->Internet Explorer
-
->Internet Explorer Who?
-
->Welcome to 2017 
+Knock, knock!
+Who's there?
+Yah.
+Yah who?
+No, I unusually prefer Google.
