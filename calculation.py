@@ -9,7 +9,7 @@ def get_dialog_state():
 
 @ask.launch
 def launched():
-    return question('Welcome to Calculation! What kind of calculation would you like to preform?')\
+    return question('Welcome to Calculation! What kind of calculation would you like to perform?')\
         .reprompt('Sorry I missed that. What kind of calculation would you like to do?')
 
 @ask.intent('Addition', convert={'first': int, 'second': int})
