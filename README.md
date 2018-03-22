@@ -59,8 +59,8 @@ Knock, knock!
 
 Who's there?
 
-Yah.
+Bing.
 
-Yah who?
+Bing who?
 
 No, I unusually prefer Google.
