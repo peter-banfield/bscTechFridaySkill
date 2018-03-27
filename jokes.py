@@ -19,9 +19,9 @@ def knock_knock():
 
 @ask.intent('WhosThere')
 def who():
-    return question('Yah')
+    return question('Bing')
 
-@ask.intent('Yahoo')
+@ask.intent('Bing')
 def ie_response():
     return statement('No, I usually prefer Google')
 
