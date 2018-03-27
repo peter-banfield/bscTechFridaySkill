@@ -16,7 +16,7 @@ def launched():
 def addition(first, second):
     dialog_state = get_dialog_state()
     if dialog_state != "COMPLETED":
-        return delegate(speech=None)
+        return delegate()
 
     sum = first + second
     return statement('The sum of {} and {} is {}'.format(first, second, sum))
@@ -25,7 +25,7 @@ def addition(first, second):
 def subtraction(first, second):
     dialog_state = get_dialog_state()
     if dialog_state != "COMPLETED":
-        return delegate(speech=None)
+        return delegate()
 
     difference = first - second
     return statement('The difference between {} and {} is {}'.format(first, second, difference))
@@ -34,7 +34,7 @@ def subtraction(first, second):
 def multiplication(first, second):
     dialog_state = get_dialog_state()
     if dialog_state != "COMPLETED":
-        return delegate(speech=None)
+        return delegate()
 
     product = first * second
     return statement('The product of {} and {} is {}'.format(first, second, product))
@@ -43,7 +43,7 @@ def multiplication(first, second):
 def division(first, second):
     dialog_state = get_dialog_state()
     if dialog_state != "COMPLETED":
-        return delegate(speech=None)
+        return delegate()
 
     if second == 0:
         return statement('Sorry I cannot divide by zero it doesnt make sense.')
@@ -54,7 +54,7 @@ def division(first, second):
 def modulus(first, second):
     dialog_state = get_dialog_state()
     if dialog_state != "COMPLETED":
-        return delegate(speech=None)
+        return delegate()
 
     if second == 0:
         return statement('Sorry I cannot divide by zero it doesnt make sense.')
